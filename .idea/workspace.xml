@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e064156-f49b-4ad9-8709-30f3e7d1ec3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter 3 exercises.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LightController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LightControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LightRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="6e064156-f49b-4ad9-8709-30f3e7d1ec3d" name="Changes" comment="code commited suicide">
+      <change beforePath="$PROJECT_DIR$/src/LightControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LightControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,24 +34,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.LightControllerTest.getlight1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LightControllerTest.getlight2.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/JAVA/chapter 3 exercises/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.LightControllerTest.executor": "Run",
+    "JUnit.LightControllerTest.getlight1.executor": "Run",
+    "JUnit.LightControllerTest.getlight2.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "E:/JAVA/chapter 3 exercises/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -69,7 +61,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LightControllerTest.getlight1">
+  <component name="RunManager" selected="JUnit.LightControllerTest">
+    <configuration name="LightControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter 3 exercises" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LightControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LightControllerTest.getlight1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chapter 3 exercises" />
       <option name="PACKAGE_NAME" value="" />
@@ -92,6 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LightControllerTest" />
         <item itemvalue="JUnit.LightControllerTest.getlight1" />
         <item itemvalue="JUnit.LightControllerTest.getlight2" />
       </list>
@@ -106,7 +108,20 @@
       <option name="presentableId" value="Default" />
       <updated>1715053802886</updated>
     </task>
+    <task id="LOCAL-00001" summary="code commited suicide">
+      <option name="closed" value="true" />
+      <created>1715062035679</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715062035679</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="code commited suicide" />
+    <option name="LAST_COMMIT_MESSAGE" value="code commited suicide" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

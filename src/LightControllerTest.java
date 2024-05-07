@@ -1,47 +1,44 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
-
-
 class LightControllerTest{
-    LightController light1,light2,light3;
+    LightController light;
     @BeforeEach
     void setUp(){
-        light1 = new LightController (1,1);
-        light2 = new LightController (1,0);
+        light = new LightController();
     }
     @Test
     void getlight1(){
-        light1.toggleFirstSwitch();
-        light1.toggleSecondSwitch();
-        assertEquals(0,light1.getLampState());
-
+        assertEquals(0,light.getLampState());
     }
     @Test
     void getlight2(){
-        light2.toggleFirstSwitch();
-        light2.toggleSecondSwitch();
-        assertEquals(0,light2.getLampState());
+        light.toggleFirstSwitch();
+        assertEquals(1,light.getLampState());
+    }
+    void getlight3(){
+        light.toggleSecondSwitch();
+        assertEquals(1,light.getLampState());
+    }
 
+    void getlight4(){
+        light.toggleFirstSwitch();
+        light.toggleSecondSwitch();
+        assertEquals(0,light.getLampState());
     }
     @Test
     void toggleFirstSwitch() {
     }
-
     @Test
     void toggleSecondSwitch() {
     }
-
     @Test
     void getFirstSwitchState() {
     }
-
     @Test
     void getSecondSwitchState() {
     }
-
     @Test
     void getLampState() {
     }
